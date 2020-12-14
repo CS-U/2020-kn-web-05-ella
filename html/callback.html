@@ -9,6 +9,8 @@
  **sum2(); - 에러 발생
  **var sum2=function() {}
 
+ *!함수의 성질 : 리턴값이 없으면 undefined를 보내준다.
+ *!변수의 성질 : 값이 지정되지 않으면 undefined를 보내준다.
  * *Callback은 자바스크립트(비동기 프로그래밍)의 핵심 로직입니다.
  */
  
@@ -19,7 +21,17 @@ function sum(){
 }
 
 //Callback
-function sum(a, b) {
-    return a + b;
+
+//function sum3(a, b){return a + b;}
+
+console.log(sum(10,20));
+
+function(a, b, fn){
+    fn(a + b);
 }
+
+sum(10, 20, function(result){
+    var c =result * result
+    console.log('10과 20을 더해서 제곱한 값은'+ c +'입니다.');
+});
 </script>
