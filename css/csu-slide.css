@@ -1,6 +1,6 @@
 .wrapper-sm{max-width: 1100px; margin: auto;}
 .wrapper{max-width: 1000px; margin: auto;}
-
+.w-100{width: 100%;}
 .csu-slide{}
 .csu-slide > .slide-stage{
     /* overflow: hidden; */
@@ -14,6 +14,10 @@
 }
 .csu-slide > .slide-stage > .slide-wrapper > .slide{
     width: 8.3333%;
+    flex: 25% 0 0;
+    border: 10px solid green;
+    position: relative;
+    left: -100%;
 
 }
 
