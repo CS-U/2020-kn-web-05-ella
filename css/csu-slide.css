@@ -1,0 +1,35 @@
+.wrapper-sm{max-width: 1100px; margin: auto;}
+.wrapper{max-width: 1000px; margin: auto;}
+
+.csu-slide{}
+.csu-slide > .slide-stage{
+    /* overflow: hidden; */
+    border: 1px solid red;
+
+}
+.csu-slide > .slide-stage > .slide-wrapper{
+    width: 300%;
+    position: relative;
+    border: 1px solid blue;
+}
+.csu-slide > .slide-stage > .slide-wrapper > .slide{
+    width: 8.3333%;
+
+}
+
+.csu-slide > .bt-prev{}
+.csu-slide > .bt-next{}
+.csu-slide > .pager-wrapper{}
+
+@media screen and (max-width:1199px){
+    
+}
+@media screen and (max-width:991px){
+
+}
+@media screen and (max-width:px){
+
+}
+@media screen and (max-width:1199px){
+
+}
